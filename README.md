@@ -27,19 +27,20 @@ This pattern is convenient but dangerous - you're executing code without reviewi
 - 🎨 Rich terminal output with syntax highlighting
 - 🛑 Interactive prompt to proceed or abort installation
 - 🚀 Fast and efficient analysis
+- 👁️ Less than 200 lines of Python - easily audit it yourself
 
 ## 🚀 Quick Start
 
-Install using pipx (recommended):
-
-```bash
-pipx install binspect
-```
-
-Or with pip:
+Install using pip:
 
 ```bash
 pip install binspect
+```
+
+Or with pipx:
+
+```bash
+pipx install binspect
 ```
 
 ## 📖 Usage
