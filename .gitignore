@@ -1,0 +1,8 @@
+venv/
+test/
+build/
+website/
+dist/
+binspect.egg-info/
+__pycache__/
+.aider*
