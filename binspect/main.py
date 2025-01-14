@@ -13,7 +13,7 @@ from rich.text import Text
 
 def analyze_script(script_content):
     """Analyze the script using LLM and stream the response"""
-    model = os.environ.get("BASH_INSPECTOR_MODEL", "openai/gpt-4")
+    model = os.environ.get("BASH_INSPECTOR_MODEL", "openai/gpt-4o")
 
     prompt = f"""Analyze this bash script for signs of malicious intent ONLY. 
 Do not report on general security best practices or potential vulnerabilities - focus solely on code that appears deliberately malicious.

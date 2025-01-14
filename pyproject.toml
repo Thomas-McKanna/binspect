@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "binspect"
-version = "0.1.0"
+version = "0.1.1"
 description = "Add a layer of protection to piped bash installs"
 authors = [{name = "Thomas McKanna"}]
 requires-python = ">=3.8"

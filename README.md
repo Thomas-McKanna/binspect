@@ -80,7 +80,7 @@ export ANTHROPIC_API_KEY='your-api-key'
 Choose your preferred model using the `BASH_INSPECTOR_MODEL` environment variable:
 
 ```bash
-# Default is 'openai/gpt-4'
+# Default is 'openai/gpt-4o'
 export BASH_INSPECTOR_MODEL='anthropic/claude-3-sonnet-20240229'
 ```
 
